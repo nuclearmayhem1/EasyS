@@ -1,4 +1,4 @@
-#include <Easy.h>
+#include <EasyS.h>
 
 class Project : public Easy::Application
 {
