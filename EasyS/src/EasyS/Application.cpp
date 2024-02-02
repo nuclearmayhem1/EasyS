@@ -10,5 +10,6 @@ namespace Easy
 	}
 	void Application::Run()
 	{
+		while (true);
 	}
 }

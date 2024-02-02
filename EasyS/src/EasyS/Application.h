@@ -8,9 +8,12 @@ namespace Easy
 	{
 	public:
 		Application();
-		~Application();
+		virtual ~Application();
 
 		void Run();
 	};
+
+	Application* CreateApplication();
+
 }
 

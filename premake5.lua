@@ -7,6 +7,8 @@ workspace "EasyS"
         "Release"
     }
 
+    startproject "Project"
+
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
 include "EasyS"

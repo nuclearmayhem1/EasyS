@@ -16,13 +16,17 @@ project "Project"
     includedirs
     {
         "../EasyS/src",
-        "../EasyS/include"
+        "../EasyS/vendor/spdlog/include"
+    }
+
+    links
+    {
+        "EasyS"
     }
 
     defines
     {
         "EZ_PLATFORM_WINDOWS",
-        "EZ_BUILD_DLL"
     }
 
     filter {"configurations:Debug"}

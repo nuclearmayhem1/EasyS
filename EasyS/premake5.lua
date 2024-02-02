@@ -15,7 +15,7 @@ project "EasyS"
 
     includedirs
     {
-        "include"
+        "vendor/spdlog/include"
     }
 
     defines

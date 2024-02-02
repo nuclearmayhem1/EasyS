@@ -6,7 +6,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\EasyS.h" />
+    <ClInclude Include="src\Easy.h" />
     <ClInclude Include="src\EasyS\Application.h">
       <Filter>EasyS</Filter>
     </ClInclude>
@@ -16,9 +16,15 @@
     <ClInclude Include="src\EasyS\EntryPoint.h">
       <Filter>EasyS</Filter>
     </ClInclude>
+    <ClInclude Include="src\EasyS\Log.h">
+      <Filter>EasyS</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\EasyS\Application.cpp">
+      <Filter>EasyS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EasyS\Log.cpp">
       <Filter>EasyS</Filter>
     </ClCompile>
   </ItemGroup>

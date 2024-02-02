@@ -1,4 +1,4 @@
-#include <EasyS.h>
+#include <Easy.h>
 
 class Project : public Easy::Application
 {
@@ -7,13 +7,14 @@ public:
 	{
 
 	}
+
 	~Project()
 	{
 
 	}
 };
 
-void main()
+Easy::Application* Easy::CreateApplication()
 {
-
+	return new Project();
 }

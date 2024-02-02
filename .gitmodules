@@ -1,0 +1,3 @@
+[submodule "EasyS/vendor/spdlog"]
+	path = EasyS/vendor/spdlog
+	url = https://github.com/gabime/spdlog
