@@ -1,3 +1,4 @@
+#include "ezpch.h"
 #include "Application.h"
 
 namespace Easy

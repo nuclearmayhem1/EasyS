@@ -4,6 +4,9 @@
     <Filter Include="EasyS">
       <UniqueIdentifier>{CAC4160D-36D9-3EBE-FF5A-E21D6B2E3BEF}</UniqueIdentifier>
     </Filter>
+    <Filter Include="EasyS\Events">
+      <UniqueIdentifier>{6EE9B956-5A4C-49FB-03D2-81B1EF13157E}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Easy.h" />
@@ -16,9 +19,13 @@
     <ClInclude Include="src\EasyS\EntryPoint.h">
       <Filter>EasyS</Filter>
     </ClInclude>
+    <ClInclude Include="src\EasyS\Events\Event.h">
+      <Filter>EasyS\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\EasyS\Log.h">
       <Filter>EasyS</Filter>
     </ClInclude>
+    <ClInclude Include="src\ezpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\EasyS\Application.cpp">
@@ -27,5 +34,6 @@
     <ClCompile Include="src\EasyS\Log.cpp">
       <Filter>EasyS</Filter>
     </ClCompile>
+    <ClCompile Include="src\ezpch.cpp" />
   </ItemGroup>
 </Project>

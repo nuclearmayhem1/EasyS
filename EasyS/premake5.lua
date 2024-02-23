@@ -7,6 +7,9 @@ project "EasyS"
     targetdir("../bin/" .. outputdir .. "/%{prj.name}")
     objdir("../bin-int/" .. outputdir .. "/%{prj.name}")
 
+    pchheader "ezpch.h"
+    pchsource "src/ezpch.cpp"
+
     files
     {
         "src/**.cpp",
@@ -15,7 +18,8 @@ project "EasyS"
 
     includedirs
     {
-        "vendor/spdlog/include"
+        "vendor/spdlog/include",
+        "src"
     }
 
     defines
