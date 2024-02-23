@@ -11,6 +11,10 @@ workspace "EasyS"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+IncludeDir = {}
+IncludeDir["GLFW"] = "%{wks.location}/EasyS/vendor/GLFW/include"
+
+include "EasyS/vendor/GLFW"
 include "EasyS"
 include "Project"
 

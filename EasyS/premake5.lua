@@ -19,7 +19,14 @@ project "EasyS"
     includedirs
     {
         "vendor/spdlog/include",
-        "src"
+        "src",
+        "%{IncludeDir.GLFW}"
+    }
+
+    links
+    {
+        "GLFW",
+        "opengl32.lib"
     }
 
     defines
