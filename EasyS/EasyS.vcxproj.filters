@@ -26,6 +26,9 @@
       <Filter>EasyS</Filter>
     </ClInclude>
     <ClInclude Include="src\ezpch.h" />
+    <ClInclude Include="src\EasyS\Events\KeyEvent.h" />
+    <ClInclude Include="src\EasyS\Events\MouseEvent.h" />
+    <ClInclude Include="src\EasyS\Events\ApplicationEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\EasyS\Application.cpp">

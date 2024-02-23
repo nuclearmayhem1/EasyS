@@ -8,6 +8,8 @@ int main(int argc, char** argv)
 {
 	Easy::Log::Init();
 
+	EZ_CORE_WARN("Initialized Log!");
+
 	auto app = Easy::CreateApplication();
 	app->Run();
 	delete app;
