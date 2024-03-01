@@ -13,6 +13,8 @@
 #include <unordered_set>
 
 
+#include "EasyS/Log.h"
+
 
 #ifdef EZ_PLATFORM_WINDOWS
 	#include <Windows.h>
